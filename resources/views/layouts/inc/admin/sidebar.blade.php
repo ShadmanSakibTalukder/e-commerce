@@ -25,7 +25,7 @@
       <li class="nav-item">
         <a class="nav-link" href="pages/forms/basic_elements.html">
           <i class="mdi mdi-view-headline menu-icon"></i>
-          <span class="menu-title">Form elements</span>
+          <span class="menu-title">Brands</span>
         </a>
       </li>
       <li class="nav-item">

@@ -42,5 +42,7 @@ Route::controller(App\Http\Controllers\Admin\CategoryController::class)->group(f
     // Route::post('category',[App\Http\Controllers\Admin\CategoryController::class, 'store']);
     // 'admin/category/'.$category->id.'/edit'
 
+    Route::get('/brands', App\Livewire\Admin\Brand\Index::class);
+
 
 });
