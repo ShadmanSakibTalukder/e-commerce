@@ -50,7 +50,7 @@ class CategoryController extends Controller
 
 public function edit(Category $category = null)
 {
-  return view('category.edit',compact('$category'));
+  return view('category.edit',compact('category'));
 }
 
 public function update(CategoryFormRequest $request, $category)
